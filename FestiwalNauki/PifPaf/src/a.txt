@@ -1,0 +1,182 @@
+leJOS NXJ> Linking...
+Class 0: java.lang.Object
+Class 1: java.lang.Throwable
+Class 2: java.lang.Error
+Class 3: java.lang.OutOfMemoryError
+Class 4: boolean
+Class 5: char
+Class 6: float
+Class 7: double
+Class 8: byte
+Class 9: short
+Class 10: int
+Class 11: long
+Class 12: void
+Class 13: java.lang.Object[]
+Class 14: java.lang.NoSuchMethodError
+Class 15: java.lang.StackOverflowError
+Class 16: java.lang.NullPointerException
+Class 17: boolean[]
+Class 18: char[]
+Class 19: float[]
+Class 20: double[]
+Class 21: byte[]
+Class 22: short[]
+Class 23: int[]
+Class 24: long[]
+Class 25: reserved
+Class 26: java.lang.ClassCastException
+Class 27: java.lang.ArithmeticException
+Class 28: java.lang.ArrayIndexOutOfBoundsException
+Class 29: java.lang.IllegalArgumentException
+Class 30: java.lang.InterruptedException
+Class 31: java.lang.IllegalStateException
+Class 32: java.lang.IllegalMonitorStateException
+Class 33: java.lang.ThreadDeath
+Class 34: java.lang.ArrayStoreException
+Class 35: java.lang.NegativeArraySizeException
+Class 36: java.lang.Class
+Class 37: java.lang.String
+Class 38: java.lang.Cloneable
+Class 39: java.lang.Thread
+Class 40: lejos.nxt.NXTRegulatedMotor.Controller
+Class 41: lejos.nxt.SensorPort
+Class 42: lejos.nxt.MotorPort
+Class 43: lejos.nxt.NXTRegulatedMotor
+Class 44: lejos.nxt.ADSensorPort
+Class 45: Main
+Class 46: lejos.nxt.VM
+Class 47: java.lang.System
+Class 48: java.io.PrintStream
+Class 49: java.lang.RuntimeException
+Class 50: java.lang.Exception
+Class 51: java.lang.IndexOutOfBoundsException
+Class 52: java.lang.Runnable
+Class 53: lejos.nxt.TouchSensor
+Class 54: lejos.nxt.Motor
+Class 55: lejos.nxt.LCDOutputStream
+Class 56: java.io.OutputStream
+Class 57: java.io.IOException
+Class 58: java.lang.Math
+Class 59: lejos.nxt.NXTRegulatedMotor.Regulator
+Class 60: lejos.util.Delay
+Class 61: lejos.robotics.RegulatedMotorListener
+Class 62: lejos.nxt.SensorPort.SensorReader
+Class 63: lejos.nxt.SensorPort.StandardReader
+Class 64: lejos.nxt.SensorPort[]
+Class 65: lejos.nxt.NXTRegulatedMotor[]
+Class 66: lejos.nxt.BasicMotorPort
+Class 67: lejos.robotics.Encoder
+Class 68: lejos.nxt.BasicSensorPort
+Method 0: java.lang.Object.<init>() PC 2488 Signature id 2
+Method 1: java.lang.Object.notifyAll() Native id 5
+Method 2: java.lang.Object.wait() Native id 6
+Method 3: java.lang.Throwable.<init>() PC 2489 Signature id 2
+Method 4: java.lang.Throwable.fillInStackTrace() PC 2499 Signature id 126
+Method 5: java.lang.IllegalArgumentException.<init>() PC 2512 Signature id 2
+Method 6: java.lang.Thread.init(java.lang.String, java.lang.Runnable) PC 2517 Signature id 172
+Method 7: java.lang.Thread.<init>() PC 2560 Signature id 2
+Method 8: java.lang.Thread.run() PC 2572 Signature id 1
+Method 9: java.lang.Thread.start() Native id 9
+Method 10: java.lang.Thread.sleep(long) Native id 11
+Method 11: java.lang.Thread.currentThread() Native id 12
+Method 12: java.lang.Thread.getPriority() Native id 13
+Method 13: java.lang.Thread.setPriority(int) Native id 14
+Method 14: java.lang.Thread.interrupt() Native id 15
+Method 15: java.lang.Thread.isDaemon() Native id 19
+Method 16: java.lang.Thread.setDaemon(boolean) Native id 18
+Method 17: lejos.nxt.NXTRegulatedMotor.Controller.<init>() PC 2592 Signature id 2
+Method 18: lejos.nxt.NXTRegulatedMotor.Controller.addMotor(lejos.nxt.NXTRegulatedMotor) PC 2605 Signature id 352
+Method 19: lejos.nxt.NXTRegulatedMotor.Controller.removeMotor(lejos.nxt.NXTRegulatedMotor) PC 2652 Signature id 353
+Method 20: lejos.nxt.NXTRegulatedMotor.Controller.run() PC 2714 Signature id 1
+Method 21: lejos.nxt.SensorPort.<clinit> PC 2917 Signature id 3
+Method 22: lejos.nxt.SensorPort.<init>(int) PC 2993 Signature id 128
+Method 23: lejos.nxt.SensorPort.reset() PC 3064 Signature id 273
+Method 24: lejos.nxt.SensorPort.setTypeAndMode(int, int) PC 3133 Signature id 274
+Method 25: lejos.nxt.SensorPort.setType(int) PC 3144 Signature id 275
+Method 26: lejos.nxt.SensorPort.setMode(int) PC 3432 Signature id 276
+Method 27: lejos.nxt.SensorPort.readRawValue() PC 3446 Signature id 277
+Method 28: lejos.nxt.SensorPort.readSensorValue(int) Native id 30
+Method 29: lejos.nxt.SensorPort.setPowerType(int) PC 3454 Signature id 281
+Method 30: lejos.nxt.SensorPort.setPowerTypeById(int, int) Native id 31
+Method 31: lejos.nxt.SensorPort.setSensorPinMode(int, int, int) Native id 109
+Method 32: lejos.nxt.SensorPort.setSensorPin(int, int, int) Native id 107
+Method 33: lejos.nxt.SensorPort.setSensorPinMode(int, int) PC 3463 Signature id 286
+Method 34: lejos.nxt.SensorPort.setSensorPin(int, int) PC 3473 Signature id 287
+Method 35: lejos.nxt.SensorPort.access$000(lejos.nxt.SensorPort) PC 3483 Signature id 290
+Method 36: lejos.nxt.SensorPort.access$100(int) PC 3488 Signature id 291
+Method 37: lejos.nxt.MotorPort.<clinit> PC 3493 Signature id 3
+Method 38: lejos.nxt.MotorPort.<init>(int) PC 3527 Signature id 128
+Method 39: lejos.nxt.MotorPort.controlMotor(int, int) PC 3542 Signature id 356
+Method 40: lejos.nxt.MotorPort.controlMotorById(int, int, int) Native id 49
+Method 41: lejos.nxt.MotorPort.getTachoCount() PC 3592 Signature id 265
+Method 42: lejos.nxt.MotorPort.getTachoCountById(int) Native id 48
+Method 43: lejos.nxt.MotorPort.setPWMMode(int) PC 3600 Signature id 357
+Method 44: lejos.nxt.NXTRegulatedMotor.<clinit> PC 3606 Signature id 3
+Method 45: lejos.nxt.NXTRegulatedMotor.<init>(lejos.nxt.TachoMotorPort) PC 3638 Signature id 263
+Method 46: lejos.nxt.NXTRegulatedMotor.updateState(int, boolean, boolean) PC 3708 Signature id 264
+Method 47: lejos.nxt.NXTRegulatedMotor.getTachoCount() PC 3781 Signature id 265
+Method 48: lejos.nxt.NXTRegulatedMotor.rotateTo(int, boolean) PC 3791 Signature id 267
+Method 49: lejos.nxt.NXTRegulatedMotor.rotateTo(int) PC 3818 Signature id 270
+Method 50: Main.<clinit> PC 3825 Signature id 3
+Method 51: Main.leftGoDown() PC 3834 Signature id 175
+Method 52: Main.rightGoDown() PC 3843 Signature id 176
+Method 53: Main.motorsUp() PC 3852 Signature id 177
+Method 54: Main.main(java.lang.String[]) PC 3867 Signature id 0
+Method 55: lejos.nxt.VM.<clinit> PC 3939 Signature id 3
+Method 56: lejos.nxt.VM.memPeek(int, int, int) Native id 103
+Method 57: lejos.nxt.VM.memPeekByte(int, int) PC 3958 Signature id 179
+Method 58: lejos.nxt.VM.memPeekInt(int, int) PC 3970 Signature id 181
+Method 59: lejos.nxt.VM.createStackTrace(java.lang.Thread, java.lang.Object) Native id 114
+Method 60: java.lang.System.<clinit> PC 3978 Signature id 3
+Method 61: java.lang.System.arraycopy(java.lang.Object, int, java.lang.Object, int, int) Native id 24
+Method 62: java.lang.System.currentTimeMillis() Native id 22
+Method 63: java.io.PrintStream.<init>(java.io.OutputStream) PC 4013 Signature id 224
+Method 64: java.lang.RuntimeException.<init>() PC 4023 Signature id 2
+Method 65: java.lang.Exception.<init>() PC 4028 Signature id 2
+Method 66: lejos.nxt.TouchSensor.<init>(lejos.nxt.ADSensorPort) PC 4033 Signature id 271
+Method 67: lejos.nxt.TouchSensor.isPressed() PC 4052 Signature id 272
+Method 68: lejos.nxt.Motor.<clinit> PC 4073 Signature id 3
+Method 69: lejos.nxt.LCDOutputStream.<init>() PC 4113 Signature id 2
+Method 70: java.io.OutputStream.<init>() PC 4123 Signature id 2
+Method 71: java.lang.Math.<clinit> PC 4128 Signature id 3
+Method 72: java.lang.Math.abs(float) PC 4189 Signature id 318
+Method 73: java.lang.Math.abs(int) PC 4203 Signature id 319
+Method 74: java.lang.Math.floor(double) PC 4214 Signature id 321
+Method 75: java.lang.Math.round(float) PC 4258 Signature id 322
+Method 76: lejos.nxt.NXTRegulatedMotor.Regulator.<init>(lejos.nxt.NXTRegulatedMotor) PC 4286 Signature id 339
+Method 77: lejos.nxt.NXTRegulatedMotor.Regulator.reset() PC 4422 Signature id 273
+Method 78: lejos.nxt.NXTRegulatedMotor.Regulator.startSubMove(float, float, int, boolean) PC 4452 Signature id 340
+Method 79: lejos.nxt.NXTRegulatedMotor.Regulator.waitStop() PC 4666 Signature id 341
+Method 80: lejos.nxt.NXTRegulatedMotor.Regulator.newMove(float, int, int, boolean, boolean) PC 4682 Signature id 342
+Method 81: lejos.nxt.NXTRegulatedMotor.Regulator.endMove(boolean) PC 4882 Signature id 345
+Method 82: lejos.nxt.NXTRegulatedMotor.Regulator.regulateMotor(long) PC 4990 Signature id 346
+Method 83: lejos.nxt.NXTRegulatedMotor.Regulator.calcPower(float, float, float, float) PC 5396 Signature id 347
+Method 84: lejos.util.Delay.msDelay(long) PC 5559 Signature id 348
+Method 85: lejos.nxt.SensorPort.SensorReader.<init>(lejos.nxt.SensorPort) PC 5611 Signature id 358
+Method 86: lejos.nxt.SensorPort.SensorReader.setType(int) PC 5621 Signature id 275
+Method 87: lejos.nxt.SensorPort.SensorReader.setMode(int) PC 5622 Signature id 276
+Method 88: lejos.nxt.SensorPort.SensorReader.readRawValue() PC 5623 Signature id 277
+Method 89: lejos.nxt.SensorPort.SensorReader.reset() PC 5625 Signature id 273
+Method 90: lejos.nxt.SensorPort.StandardReader.<init>(lejos.nxt.SensorPort) PC 5626 Signature id 358
+Method 91: lejos.nxt.SensorPort.StandardReader.readRawValue() PC 5637 Signature id 277
+Master record    : 20 bytes.
+Class records    : 69 (828 bytes).
+Field records    : 85 (88 bytes).
+Static fields    : 28 (56 bytes).
+Static state     : 28 (152 bytes).
+Constant records : 34 (136 bytes).
+Constant values  : 34 (196 bytes).
+Method records   : 92 (1104 bytes).
+Exception records: 6 (48 bytes).
+Interface maps   : 7 (8 bytes).
+Code             : 72 (3160 bytes).
+Total            : 5648 bytes.
+Run time options : EnableCompact 
+Constant loads   : 1N 30O 0W 1S
+Static load/store: 10N 39O
+Field  load/store: 138N 122O
+leJOS NXJ> Uploading...
+Found NXT: Rabus 0016530C639F
+leJOS NXJ> Connected to Rabus
+leJOS NXJ> Upload successful in 877 milliseconds
