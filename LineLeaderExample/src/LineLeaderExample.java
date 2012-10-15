@@ -2,7 +2,7 @@ import lejos.nxt.*;
 import lejos.nxt.addon.NXTLineLeader;
 
 
-public class LineFollower {
+public class LineLeaderExample {
 
 	public static void wait(int milliseconds) throws InterruptedException {
         Thread.sleep(milliseconds);
